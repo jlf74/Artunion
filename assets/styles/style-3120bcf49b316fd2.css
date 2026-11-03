@@ -1,4 +1,4 @@
-@import url("../palette.css?v=419241f0e5a3b49b");
+@import url("../palette.css?v=6363533757b24e7f");
 
 :root{--au-label:rgba(255,255,255,.64);--au-font-body:'AU Golos',Arial,sans-serif;--au-font-display:'AU Oswald','AU Golos',sans-serif;--au-gutter:4%;--au-section-space:82px;--au-grid-gap:8px;--au-circle:56px;--au-arrow-circle:44px;--au-motion:220ms;--au-cover-shade:linear-gradient(90deg,#0a0a0c69,transparent 76%),linear-gradient(0deg,#0a0a0ce6,transparent 63%,#10101266)}
 #au-site,#au-spaced,#au-gallery-review{--blue:var(--au-blue);--deep:var(--au-deep);--red:var(--au-red);font-family:var(--au-font-body)}
