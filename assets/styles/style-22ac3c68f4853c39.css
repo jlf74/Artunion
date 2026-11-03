@@ -72,3 +72,6 @@
 @media(max-width:600px){:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact{grid-template-columns:1fr}:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact .au-privacy{grid-column:1;grid-row:3;justify-self:start}}
 
 #au-spaced .au-film-edge{background:var(--au-film);border-bottom-color:var(--au-film)}
+
+/* Home section backgrounds must not inherit the footer canvas. */
+#au-site,#au-site .intro{background:var(--au-blue)}
