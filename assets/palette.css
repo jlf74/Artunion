@@ -1,17 +1,17 @@
-/* Approved variant 03 from output/Три цвета.png. All current pages use these tokens. */
+/* Approved working package: content/cinema-design-system-2026-10-30.md and the preserved design-system swatches. */
 :root{
  color-scheme:dark;
- --au-blue:#142349;
- --au-deep:#101d3d;
- --au-film:#0c1733;
+ --au-blue:#4a5ba2;
+ --au-deep:#40508f;
+ --au-film:#3b4b8a;
  --au-red:#d64841;
  --au-white:#fff;
- --au-surface-hover:var(--au-film);
+ --au-surface-hover:#394983;
  --au-accent-hover:#bb3630;
  --au-text-muted:#d1d7ed;
  --au-text-secondary:#c8cfe6;
  --au-text-soft:#f1f3fa;
- --au-card-fallback:var(--au-film);
+ --au-card-fallback:#30394f;
  --au-video-fallback:#20242c;
  --au-dialog-bg:#101421;
  --au-dialog-backdrop:#090d18ed;
@@ -26,11 +26,11 @@
  --au-product-shadow-small:#0d16384d;
  --au-product-glow:#c0d7ff45;
  --au-product-glow-soft:#a5c3f222;
- --au-map-tint:rgba(16,29,61,.22);
- --au-ui-bg:var(--au-film);
- --au-ui-surface:var(--au-deep);
+ --au-map-tint:rgba(64,80,143,.22);
+ --au-ui-bg:#151b31;
+ --au-ui-surface:#27345f;
  --au-ui-active:var(--au-blue);
- --au-ui-hover:#1b2d58;
+ --au-ui-hover:#35447e;
  --blue:var(--au-blue);
  --blue-dark:var(--au-deep);
  --blue-film:var(--au-film);

@@ -7,7 +7,9 @@
   "brokenInternalRoutes": 0,
   "galleryLinks": 38,
   "completeProjectCycle": true,
-  "palette": "#142349 / #101D3D / #0C1733",
+  "palette": "#4A5BA2 / #40508F / #3B4B8A",
   "mode": "Static browser audit at 390/1440 and representative 320/768 widths. Actual gallery, next project and header navigation checked separately. Not real devices or repeated playback audit.",
-  "checkedOn": "2026-11-03"
+  "checkedOn": "2026-11-03",
+  "approvedPaletteSource": "Working Cinema package: cinema-design-system-2026-10-30.md and preserved design-system.html swatches",
+  "paletteErrors": 0
 }
