@@ -1,0 +1,12 @@
+{
+  "name": "artunion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ART UNION — responsive HTML mockup, 38 projects",
+  "scripts": {
+    "start": "node serve.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

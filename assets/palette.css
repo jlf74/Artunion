@@ -1,0 +1,40 @@
+/* Approved variant 03 from output/Три цвета.png. All current pages use these tokens. */
+:root{
+ color-scheme:dark;
+ --au-blue:#142349;
+ --au-deep:#101d3d;
+ --au-film:#0c1733;
+ --au-red:#d64841;
+ --au-white:#fff;
+ --au-surface-hover:var(--au-film);
+ --au-accent-hover:#bb3630;
+ --au-text-muted:#d1d7ed;
+ --au-text-secondary:#c8cfe6;
+ --au-text-soft:#f1f3fa;
+ --au-card-fallback:var(--au-film);
+ --au-video-fallback:#20242c;
+ --au-dialog-bg:#101421;
+ --au-dialog-backdrop:#090d18ed;
+ --au-player-bg:#080b12;
+ --au-light:#dce5f2;
+ --au-perforation:#c0c8e2;
+ --au-header-shadow:#0a10272b;
+ --au-menu-shadow:#15255026;
+ --au-film-shadow:#0b13275c;
+ --au-product-shadow:#18224266;
+ --au-product-shadow-soft:#18224242;
+ --au-product-shadow-small:#0d16384d;
+ --au-product-glow:#c0d7ff45;
+ --au-product-glow-soft:#a5c3f222;
+ --au-map-tint:rgba(16,29,61,.22);
+ --au-ui-bg:var(--au-film);
+ --au-ui-surface:var(--au-deep);
+ --au-ui-active:var(--au-blue);
+ --au-ui-hover:#1b2d58;
+ --blue:var(--au-blue);
+ --blue-dark:var(--au-deep);
+ --blue-film:var(--au-film);
+ --red:var(--au-red);
+ --white:var(--au-white);
+}
+html,body{background:var(--au-deep)}

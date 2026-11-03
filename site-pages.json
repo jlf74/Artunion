@@ -1,0 +1,250 @@
+{
+  "home": {
+    "file": "index.html",
+    "title": "Главная",
+    "type": "page"
+  },
+  "projects": {
+    "file": "projects.html",
+    "title": "Проекты",
+    "type": "page"
+  },
+  "about": {
+    "file": "about.html",
+    "title": "О нас",
+    "type": "page"
+  },
+  "contacts": {
+    "file": "contacts.html",
+    "title": "Контакты",
+    "type": "page"
+  },
+  "zenit": {
+    "file": "project-zenit.html",
+    "title": "Банк Зенит",
+    "type": "project",
+    "projectId": "zenit"
+  },
+  "nexemezin": {
+    "file": "project-nexemezin.html",
+    "title": "Нексемезин",
+    "type": "project",
+    "projectId": "nexemezin"
+  },
+  "dkkids": {
+    "file": "project-dkkids.html",
+    "title": "Дары Кубани для детей",
+    "type": "project",
+    "projectId": "dkkids"
+  },
+  "case": {
+    "file": "project-dary_2.html",
+    "title": "Дары Кубани 2",
+    "type": "project",
+    "projectId": "dary_2"
+  },
+  "ovsyasha": {
+    "file": "project-ovsyasha.html",
+    "title": "Овсяша",
+    "type": "project",
+    "projectId": "ovsyasha"
+  },
+  "ostankino": {
+    "file": "project-ostankino.html",
+    "title": "Останкино",
+    "type": "project",
+    "projectId": "ostankino"
+  },
+  "creamzy": {
+    "file": "project-creamzy.html",
+    "title": "Creamzy",
+    "type": "project",
+    "projectId": "creamzy"
+  },
+  "umalat": {
+    "file": "project-umalat.html",
+    "title": "Умалат",
+    "type": "project",
+    "projectId": "umalat"
+  },
+  "dary": {
+    "file": "project-dary.html",
+    "title": "Дары Кубани",
+    "type": "project",
+    "projectId": "dary"
+  },
+  "moskovsky": {
+    "file": "project-moskovsky.html",
+    "title": "Агрохолдинг Московский",
+    "type": "project",
+    "projectId": "moskovsky"
+  },
+  "grand": {
+    "file": "project-grand.html",
+    "title": "Гранд",
+    "type": "project",
+    "projectId": "grand"
+  },
+  "kumach": {
+    "file": "project-kumach.html",
+    "title": "Кумач",
+    "type": "project",
+    "projectId": "kumach"
+  },
+  "worldclass": {
+    "file": "project-worldclass.html",
+    "title": "Worldclass SPA",
+    "type": "project",
+    "projectId": "worldclass"
+  },
+  "pastrami": {
+    "file": "project-pastrami.html",
+    "title": "Pastrami International",
+    "type": "project",
+    "projectId": "pastrami"
+  },
+  "gremm": {
+    "file": "project-gremm.html",
+    "title": "GREMM GROUP",
+    "type": "project",
+    "projectId": "gremm"
+  },
+  "veres": {
+    "file": "project-veres.html",
+    "title": "Veres",
+    "type": "project",
+    "projectId": "veres"
+  },
+  "emelya": {
+    "file": "project-emelya.html",
+    "title": "Емеля",
+    "type": "project",
+    "projectId": "emelya"
+  },
+  "malysheva": {
+    "file": "project-malysheva.html",
+    "title": "Диета Елены Малышевой",
+    "type": "project",
+    "projectId": "malysheva"
+  },
+  "mizura": {
+    "file": "project-mizura.html",
+    "title": "Mizura",
+    "type": "project",
+    "projectId": "mizura"
+  },
+  "bridgestone": {
+    "file": "project-bridgestone.html",
+    "title": "Bridgestone",
+    "type": "project",
+    "projectId": "bridgestone"
+  },
+  "kinomax": {
+    "file": "project-kinomax.html",
+    "title": "Киномакс",
+    "type": "project",
+    "projectId": "kinomax"
+  },
+  "unionpay": {
+    "file": "project-unionpay.html",
+    "title": "UnionPay",
+    "type": "project",
+    "projectId": "unionpay"
+  },
+  "novalgin": {
+    "file": "project-novalgin.html",
+    "title": "Новалгин",
+    "type": "project",
+    "projectId": "novalgin"
+  },
+  "vico": {
+    "file": "project-vico.html",
+    "title": "Вико",
+    "type": "project",
+    "projectId": "vico"
+  },
+  "tikkurila": {
+    "file": "project-tikkurila.html",
+    "title": "Tikkurila",
+    "type": "project",
+    "projectId": "tikkurila"
+  },
+  "alpen": {
+    "file": "project-alpen.html",
+    "title": "Alpen Pharma",
+    "type": "project",
+    "projectId": "alpen"
+  },
+  "ekzo": {
+    "file": "project-ekzo.html",
+    "title": "Ekzo",
+    "type": "project",
+    "projectId": "ekzo"
+  },
+  "astellas": {
+    "file": "project-astellas.html",
+    "title": "Astellas Pharma",
+    "type": "project",
+    "projectId": "astellas"
+  },
+  "baikal": {
+    "file": "project-baikal.html",
+    "title": "Байкал",
+    "type": "project",
+    "projectId": "baikal"
+  },
+  "mense": {
+    "file": "project-mense.html",
+    "title": "Менсе",
+    "type": "project",
+    "projectId": "mense"
+  },
+  "victoria": {
+    "file": "project-victoria.html",
+    "title": "Golden Victoria",
+    "type": "project",
+    "projectId": "victoria"
+  },
+  "grand_tea": {
+    "file": "project-grand_tea.html",
+    "title": "Чай Гранд",
+    "type": "project",
+    "projectId": "grand_tea"
+  },
+  "sheb": {
+    "file": "project-sheb.html",
+    "title": "Шебекинские",
+    "type": "project",
+    "projectId": "sheb"
+  },
+  "elkar": {
+    "file": "project-elkar.html",
+    "title": "Элькар",
+    "type": "project",
+    "projectId": "elkar"
+  },
+  "tefal": {
+    "file": "project-tefal.html",
+    "title": "Groupe SEB",
+    "type": "project",
+    "projectId": "tefal"
+  },
+  "papa": {
+    "file": "project-papa.html",
+    "title": "Папа может",
+    "type": "project",
+    "projectId": "papa"
+  },
+  "lacalut": {
+    "file": "project-lacalut.html",
+    "title": "Lacalut",
+    "type": "project",
+    "projectId": "lacalut"
+  },
+  "marykay": {
+    "file": "project-marykay.html",
+    "title": "Mary Kay",
+    "type": "project",
+    "projectId": "marykay"
+  }
+}

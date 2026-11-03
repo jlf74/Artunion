@@ -1,0 +1,13 @@
+{
+  "pages": 42,
+  "projects": 38,
+  "browserCombinations": 104,
+  "layoutErrors": 0,
+  "brokenImages": 0,
+  "brokenInternalRoutes": 0,
+  "galleryLinks": 38,
+  "completeProjectCycle": true,
+  "palette": "#142349 / #101D3D / #0C1733",
+  "mode": "Static browser audit at 390/1440 and representative 320/768 widths. Actual gallery, next project and header navigation checked separately. Not real devices or repeated playback audit.",
+  "checkedOn": "2026-11-03"
+}

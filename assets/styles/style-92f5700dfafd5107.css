@@ -1,0 +1,74 @@
+@import url("../palette.css");
+
+:root{--au-label:rgba(255,255,255,.64);--au-font-body:'AU Golos',Arial,sans-serif;--au-font-display:'AU Oswald','AU Golos',sans-serif;--au-gutter:4%;--au-section-space:82px;--au-grid-gap:8px;--au-circle:56px;--au-arrow-circle:44px;--au-motion:220ms;--au-cover-shade:linear-gradient(90deg,#0a0a0c69,transparent 76%),linear-gradient(0deg,#0a0a0ce6,transparent 63%,#10101266)}
+#au-site,#au-spaced,#au-gallery-review{--blue:var(--au-blue);--deep:var(--au-deep);--red:var(--au-red);font-family:var(--au-font-body)}
+#au-site .hero-shade,#au-spaced .au-film:after{background:var(--au-cover-shade)}
+#au-site .hero-controls{display:none}
+#au-site #hero-title .project-dot{vertical-align:.16em;margin-left:.16em}
+#au-site .dialog-head h2,.au-case-dialog-head h2{font:500 28px/1.1 var(--au-font-display);letter-spacing:-.015em;text-transform:uppercase}
+#au-spaced .au-next-zone{padding-block:var(--au-section-space)}
+#au-spaced .au-materials{padding-bottom:var(--au-section-space)}
+#au-spaced .au-film-copy{z-index:3}
+#au-spaced .au-film:after{z-index:2}
+#au-spaced .au-background-video{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none;opacity:0;transition:opacity .4s ease}
+#au-spaced .au-background-video.is-playing{opacity:1}
+#au-spaced .au-background-video iframe{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:0;max-width:none}
+#au-spaced .au-track:before{width:var(--video-progress,0%)}
+#au-spaced .au-next-image-link{color:inherit;text-decoration:none;display:block}
+#au-spaced .au-next-image-link:focus-visible{outline:3px solid white;outline-offset:-5px}
+#au-spaced .au-next-image-link:focus-visible .au-dot{background:var(--au-red)}
+#au-spaced[data-project="ovsyasha"] .au-product{position:relative;isolation:isolate;width:125%;height:560px;max-width:none;background:transparent}
+#au-spaced[data-project="ovsyasha"] .au-product img{position:relative;z-index:1;height:100%;object-fit:contain;transform:rotate(-7deg) scale(1.14);filter:drop-shadow(16px 24px 20px var(--au-product-shadow))}
+#au-spaced[data-project="ovsyasha"] .au-product:before{content:"";position:absolute;inset:-4% 4%;z-index:0;background:radial-gradient(ellipse at 50% 48%,var(--au-product-glow) 0%,var(--au-product-glow-soft) 32%,transparent 66%);filter:blur(18px);pointer-events:none}
+#au-spaced[data-project="ovsyasha"] .au-aside{padding-top:16px;justify-content:center}
+#au-spaced[data-project="ovsyasha"] .au-title-row{white-space:nowrap}
+@media(max-width:700px){:root{--au-section-space:48px}#au-site #hero-title .project-dot{vertical-align:.08em}#au-spaced[data-project="ovsyasha"] .au-product{width:320px!important;height:420px!important}}
+@media(prefers-reduced-motion:reduce){#au-spaced .au-background-video{transition:none}}
+#au-spaced .au-campaign-brief{display:grid;grid-template-columns:1.25fr 1fr;gap:9%;padding:90px var(--au-gutter) 82px;background:var(--au-deep)}
+#au-spaced .au-campaign-brief h2,#au-spaced .au-campaign-solution h2{font:400 12px/1.4 var(--au-font-body);letter-spacing:.08em;text-transform:uppercase;color:var(--au-label);margin:0 0 25px}
+#au-spaced .au-campaign-brief ul{list-style:none;padding:0;margin:0;font:400 24px/1.5 var(--au-font-body);text-wrap:pretty}
+#au-spaced .au-campaign-brief li+li{margin-top:18px}
+#au-spaced .au-campaign-barriers p{font:400 20px/1.6 var(--au-font-body);text-wrap:pretty;max-width:540px}
+#au-spaced .au-campaign-lead{padding:0 var(--au-gutter);background:var(--au-deep)}
+#au-spaced .au-campaign-image{margin:0;overflow:hidden}
+#au-spaced .au-campaign-image img{display:block;width:100%;height:auto}
+#au-spaced .au-campaign-solution{position:relative;padding:82px var(--au-gutter);background:var(--au-deep)}
+#au-spaced .au-campaign-solution h2{position:absolute;top:92px;left:var(--au-gutter)}
+#au-spaced .au-campaign-solution p{font:400 clamp(26px,2.8cqw,42px)/1.23 var(--au-font-body);letter-spacing:-.03em;text-indent:25%;text-wrap:pretty}
+#au-spaced .au-campaign-gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 var(--au-gutter) 82px;background:var(--au-deep);align-items:start}
+#au-spaced .au-campaign-gallery .au-campaign-image:not(.au-campaign-wide):not(.au-campaign-signature){background:transparent}
+#au-spaced .au-campaign-gallery .au-campaign-image:not(.au-campaign-wide):not(.au-campaign-signature) img{width:100%;height:auto}
+#au-spaced .au-campaign-wide{grid-column:1/-1}
+#au-spaced .au-campaign-signature{grid-column:1/-1;width:200px;justify-self:center;margin-top:74px}
+@container(max-width:700px){#au-spaced .au-campaign-brief{grid-template-columns:1fr;gap:44px;padding:48px 6%}#au-spaced .au-campaign-brief ul{font-size:21px}#au-spaced .au-campaign-barriers p{font-size:18px}#au-spaced .au-campaign-solution{padding:48px 6%}#au-spaced .au-campaign-solution h2{position:static;margin-bottom:24px}#au-spaced .au-campaign-solution p{text-indent:18%;font-size:28px}#au-spaced .au-campaign-gallery{grid-template-columns:1fr;padding-bottom:48px}#au-spaced .au-campaign-signature{width:160px;margin-top:40px}}
+
+/* Client review refinements: shared text, paired media, gentle product motion. */
+#au-spaced .au-text-block:nth-child(-n+2) p,#au-spaced .au-text-block:nth-child(-n+2) ul,#au-spaced .au-campaign-brief ul,#au-spaced .au-campaign-barriers p{font:400 20px/1.6 var(--au-font-body);letter-spacing:0}
+#au-spaced .au-text-block:nth-child(-n+2) ul,#au-spaced .au-campaign-brief ul{list-style:disc;padding-left:1.1em;margin:0}
+#au-spaced .au-text-block li+li,#au-spaced .au-campaign-brief li+li{margin-top:0}
+#au-spaced .au-text-block li::marker,#au-spaced .au-campaign-brief li::marker{font-size:.65em;color:var(--au-label)}
+#au-spaced .au-campaign-gallery .au-campaign-image:not(.au-campaign-wide):not(.au-campaign-signature){aspect-ratio:1920/1170}
+#au-spaced .au-campaign-gallery .au-campaign-image:not(.au-campaign-wide):not(.au-campaign-signature) img{height:100%;object-fit:cover;object-position:center}
+#au-spaced .au-campaign-signature{width:260px;height:165px;mix-blend-mode:screen}
+#au-spaced .au-campaign-signature img{filter:grayscale(1) invert(1);transform:translateY(-80px)}
+#au-spaced .au-product img{animation:au-product-sway 16s ease-in-out infinite;transform-origin:50% 50%;--product-tilt:8deg;--product-scale:1.18;--product-y:-10px}
+#au-spaced[data-project="ovsyasha"] .au-product img{--product-tilt:-7deg;--product-scale:1.14;--product-y:0px;animation-delay:-4s}
+@keyframes au-product-sway{0%,100%{transform:translateY(var(--product-y)) rotate(calc(var(--product-tilt) - 3deg)) scale(var(--product-scale))}50%{transform:translateY(var(--product-y)) rotate(calc(var(--product-tilt) + 3deg)) scale(var(--product-scale))}}
+@container(max-width:700px){#au-spaced .au-text-block:nth-child(-n+2) p,#au-spaced .au-text-block:nth-child(-n+2) ul,#au-spaced .au-campaign-brief ul,#au-spaced .au-campaign-barriers p{font-size:18px}}
+@media(prefers-reduced-motion:reduce){#au-spaced .au-product img{animation:none}}
+
+/* Selected original generated logo: retain the red brand accent. */
+#au-spaced .au-campaign-signature{width:260px;height:auto;mix-blend-mode:normal}
+#au-spaced .au-campaign-signature img{filter:none;transform:none;height:auto}
+
+/* 30 Oct: align the magazine fold (x=991 in a 1920px source) with the grid axis. */
+#au-spaced[data-project="bridgestone"] .au-campaign-wide img{width:104%;max-width:none;transform:translateX(-3.5385%)}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer{padding-bottom:24px}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact{display:grid;grid-template-columns:1fr auto;gap:7px 24px}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact>a:first-child{grid-column:1;grid-row:1}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact address{grid-column:1;grid-row:2}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact .au-privacy{grid-column:2;grid-row:2;justify-self:end;align-self:baseline;margin:0;font-size:12px}
+:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-bottom{margin-top:24px;padding-top:16px}
+@media(max-width:600px){:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact{grid-template-columns:1fr}:is(#au-site,#au-spaced,#au-gallery-review) .au-footer-contact .au-privacy{grid-column:1;grid-row:3;justify-self:start}}
+
+#au-spaced .au-film-edge{background:var(--au-film);border-bottom-color:var(--au-film)}
