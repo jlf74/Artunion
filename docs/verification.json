@@ -27,5 +27,16 @@
     "introPaddingBottom": 72
   },
   "mapShade": "rgba(20,35,73,0.24)",
-  "mapShadePointerEvents": "none"
+  "mapShadePointerEvents": "none",
+  "galleryRotation": {
+    "perVisit": true,
+    "largeSlots": 6,
+    "smallSlots": 32,
+    "consecutiveLargeOverlap": 0,
+    "reloadsChecked": 8,
+    "projectSetAndLinksCorrect": true,
+    "resizeStable": true,
+    "filterStable": true,
+    "backNavigationChecked": true
+  }
 }
