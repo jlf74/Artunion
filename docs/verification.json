@@ -11,5 +11,21 @@
   "mode": "Static browser audit at 390/1440 and representative 320/768 widths. Actual gallery, next project and header navigation checked separately. Not real devices or repeated playback audit.",
   "checkedOn": "2026-11-03",
   "approvedPaletteSource": "Explicit selection of version 03, right column of Три цвета.png; comparison.css [data-theme=night]",
-  "paletteErrors": 0
+  "paletteErrors": 0,
+  "mobileGalleryDefault": "mixed",
+  "galleryArrowCenterMaxError": 0,
+  "galleryWidthsChecked": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "mobileHomeAt390x844": {
+    "heroHeight": 630.71875,
+    "introHeight": 420,
+    "introPaddingTop": 72,
+    "introPaddingBottom": 72
+  },
+  "mapShade": "rgba(20,35,73,0.24)",
+  "mapShadePointerEvents": "none"
 }
