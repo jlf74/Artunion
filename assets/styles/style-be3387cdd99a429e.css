@@ -1,0 +1,36 @@
+/* About: generated editorial images. Scoped to this composition. */
+#au-spaced[data-about-layout="attention"]{--au-about-space:clamp(56px,6.4cqw,96px)}
+#au-spaced[data-about-layout="attention"] figure{margin:0;min-width:0;overflow:hidden}
+#au-spaced[data-about-layout="attention"] figure img{display:block;width:100%;height:100%;object-fit:cover}
+#au-spaced[data-about-layout="attention"] .au-about-context{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;padding-block:var(--au-about-space);align-items:stretch}
+#au-spaced[data-about-layout="attention"] .au-about-context figure{aspect-ratio:3/2;align-self:start}
+#au-spaced[data-about-layout="attention"] .au-about-body{padding-left:clamp(30px,4cqw,64px);gap:24px;min-width:0}
+#au-spaced[data-about-layout="attention"] .au-about-body p{font-size:20px;line-height:1.6;max-width:none}
+#au-spaced[data-about-layout="attention"] .au-about-idea{padding:24px 4% var(--au-about-space);background:var(--au-deep)}
+#au-spaced[data-about-layout="attention"] .au-editorial-statement{margin:0;max-width:none;font-size:clamp(28px,3cqw,44px);line-height:1.28;text-wrap:pretty}
+#au-spaced[data-about-layout="attention"] .au-about-perception{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:0 4% var(--au-about-space);background:var(--au-deep);align-items:start}
+#au-spaced[data-about-layout="attention"] .au-about-method{display:block;margin:0;padding:0 clamp(30px,4cqw,64px) 0 0;min-width:0}
+#au-spaced[data-about-layout="attention"] .au-about-method p{margin:0;width:auto;max-width:none;font:400 20px/1.6 var(--au-font-body);letter-spacing:0;text-indent:0;text-wrap:pretty}
+#au-spaced[data-about-layout="attention"] .au-about-perception figure{aspect-ratio:3/2}
+#au-spaced[data-about-layout="attention"] .au-about-outro{padding:var(--au-about-space) 4%;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;align-items:stretch;background:var(--au-blue)}
+#au-spaced[data-about-layout="attention"] .au-about-outro>div{padding-right:clamp(30px,4cqw,64px);display:flex;align-items:flex-start}
+#au-spaced[data-about-layout="attention"] .au-about-outro>div>p{margin:0;padding:0;font:400 clamp(25px,2.2cqw,34px)/1.35 var(--au-font-body);letter-spacing:-.02em}
+#au-spaced[data-about-layout="attention"] .au-about-outro>a.au-editorial-cta{margin:0;min-height:240px;display:flex;flex-direction:column;justify-content:space-between;padding:32px;background:var(--au-deep)}
+#au-spaced[data-about-layout="attention"] .au-about-outro>a.au-editorial-cta:hover{background:var(--au-surface-hover)}
+@media(max-width:900px){
+#au-spaced[data-about-layout="attention"] .au-about-context,#au-spaced[data-about-layout="attention"] .au-about-perception{grid-template-columns:minmax(0,1fr);gap:32px}
+#au-spaced[data-about-layout="attention"] .au-about-body{padding:0;gap:24px}
+#au-spaced[data-about-layout="attention"] .au-about-method{padding:0}
+#au-spaced[data-about-layout="attention"] .au-about-perception figure{aspect-ratio:16/9}
+#au-spaced[data-about-layout="attention"] .au-about-outro{grid-template-columns:minmax(0,1fr);gap:32px}
+#au-spaced[data-about-layout="attention"] .au-about-outro>div{padding:0}
+}
+@media(max-width:600px){
+#au-spaced[data-about-layout="attention"]{--au-about-space:48px}
+#au-spaced[data-about-layout="attention"] .au-about-context,#au-spaced[data-about-layout="attention"] .au-about-idea,#au-spaced[data-about-layout="attention"] .au-about-perception,#au-spaced[data-about-layout="attention"] .au-about-outro{padding-left:6%;padding-right:6%}
+#au-spaced[data-about-layout="attention"] .au-about-context figure{aspect-ratio:4/3}
+#au-spaced[data-about-layout="attention"] .au-about-context img{object-position:68% 50%}
+#au-spaced[data-about-layout="attention"] .au-about-body p,#au-spaced[data-about-layout="attention"] .au-about-method p{font-size:18px;line-height:1.6}
+#au-spaced[data-about-layout="attention"] .au-editorial-statement{font-size:28px;text-indent:12%}
+#au-spaced[data-about-layout="attention"] .au-about-outro>a.au-editorial-cta{padding:24px;min-height:200px}
+}
