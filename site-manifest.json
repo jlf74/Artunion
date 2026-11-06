@@ -1,9 +1,9 @@
 {
   "pages": 42,
   "projects": 38,
-  "assets": 161,
-  "styles": 14,
-  "scripts": 11,
+  "assets": 162,
+  "styles": 15,
+  "scripts": 12,
   "routes": {
     "home": "index.html",
     "projects": "projects.html",
@@ -48,5 +48,5 @@
     "lacalut": "project-lacalut.html",
     "marykay": "project-marykay.html"
   },
-  "generated": "2026-11-06T11:18:59.000Z"
+  "generated": "2026-11-06T12:55:19.088Z"
 }
