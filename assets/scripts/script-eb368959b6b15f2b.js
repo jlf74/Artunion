@@ -92,8 +92,10 @@
     if (slots.has(index)) return slots.get(index);
     const project = featured[index], frame = document.createElement('iframe');
     const url = new URL(project.video.embedUrl);
-    const ceiling = matchMedia('(max-width: 600px)').matches ? '540p' : '720p';
-    for (const [key, value] of Object.entries({ autoplay: '0', muted: '1', controls: '0', autopause: '0', playsinline: '1', title: '0', byline: '0', portrait: '0', dnt: '1', preload: 'auto', initial_quality: '360p', max_quality: ceiling })) url.searchParams.set(key, value);
+    const mobile = matchMedia('(max-width: 600px)').matches;
+    const initial = mobile ? '540p' : '720p';
+    const ceiling = mobile ? '720p' : '1080p';
+    for (const [key, value] of Object.entries({ autoplay: '0', muted: '1', controls: '0', autopause: '0', playsinline: '1', title: '0', byline: '0', portrait: '0', dnt: '1', preload: 'auto', initial_quality: initial, min_quality: '540p', max_quality: ceiling })) url.searchParams.set(key, value);
     frame.src = url.href;
     frame.title = project.name + ' — превью';
     frame.allow = 'autoplay; fullscreen; picture-in-picture';
