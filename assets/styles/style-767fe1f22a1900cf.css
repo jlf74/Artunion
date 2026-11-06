@@ -1,0 +1,7 @@
+#au-site .hero-video{opacity:1;transition:none}
+#au-site .hero-video iframe{opacity:0;transition:opacity .28s ease}
+#au-site .hero-video iframe.is-visible{opacity:1}
+body[data-page="home"] .au-entry{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;overflow:hidden;background:var(--au-deep);pointer-events:none}
+body[data-page="home"] .au-entry-brand{position:relative;width:clamp(240px,36vw,520px);max-width:80vw;aspect-ratio:2373/330;background:linear-gradient(90deg,#fff 0 73.11%,var(--au-red) 73.11% 86.78%,#fff 86.78%);mask-position:center;mask-size:contain;mask-repeat:no-repeat;animation:au-entry-logo .9s cubic-bezier(.2,.6,.3,1) both}
+@keyframes au-entry-logo{from{opacity:0;clip-path:inset(0 100% 0 0)}to{opacity:1;clip-path:inset(0 0 0 0)}}
+@media(prefers-reduced-motion:reduce){body[data-page="home"] .au-entry{display:none}#au-site .hero-video iframe{transition:none}}
