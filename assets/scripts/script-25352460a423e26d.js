@@ -22,9 +22,13 @@ function rememberLarge(value){memoryHost.__ART_UNION_LAST_LARGE__=value.slice();
 function shuffled(value){const result=value.slice();for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
 function arrangeVisit(){
  const previous=new Set(previousLarge()),candidates=ids.filter(id=>!previous.has(id));
- const large=shuffled(candidates.length>=largeCount?candidates:ids).slice(0,largeCount),largeSet=new Set(large),small=shuffled(ids.filter(id=>!largeSet.has(id)));
+ const pool=shuffled(candidates.length>=largeCount?candidates:ids);
+ // Keep both category views represented without promoting tiles during filtering.
+ const categoryPicks=['video','graphics'].map(kind=>pool.find(id=>bank.get(id).dataset.kind===kind)).filter(Boolean);
+ const remaining=pool.filter(id=>!categoryPicks.includes(id)).slice(0,largeCount-categoryPicks.length);
+ const large=shuffled([...categoryPicks,...remaining]),largeSet=new Set(large),small=shuffled(ids.filter(id=>!largeSet.has(id)));
  const focused=grid.contains(document.activeElement)?document.activeElement:null,fragment=document.createDocumentFragment();let bigIndex=0,smallIndex=0;
- slots.forEach(slot=>{const tile=tiles.get(slot.large?large[bigIndex++]:small[smallIndex++]);tile.classList.toggle('au-big',slot.large);tile.querySelector('img').sizes=slot.large?'(max-width:600px) 88vw, (max-width:1024px) calc(100vw - 32px), calc(50vw - 20px)':'(max-width:600px) calc(44vw - 4px), (max-width:1024px) calc(50vw - 20px), calc(25vw - 14px)';tile.style.gridColumn=slot.column+' / span '+(slot.large?2:1);tile.style.gridRow=slot.row+' / span '+(slot.large?2:1);fragment.append(tile);});
+ slots.forEach(slot=>{const tile=tiles.get(slot.large?large[bigIndex++]:small[smallIndex++]);tile.classList.toggle('au-big',slot.large);tile.querySelector('img').sizes=slot.large?'(max-width:600px) 88vw, (max-width:1024px) calc(100vw - 32px), calc(50vw - 20px)':'(max-width:600px) calc(44vw - 4px), (max-width:1024px) calc(50vw - 20px), calc(25vw - 14px)';tile.style.setProperty('--tile-column',slot.column+' / span '+(slot.large?2:1));tile.style.setProperty('--tile-row',slot.row+' / span '+(slot.large?2:1));fragment.append(tile);});
  grid.replaceChildren(fragment);rememberLarge(large);focused?.focus({preventScroll:true});
 }
 arrangeVisit();

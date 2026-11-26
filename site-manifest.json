@@ -1,13 +1,12 @@
 {
-  "pages": 42,
+  "pages": 41,
   "projects": 38,
-  "assets": 235,
-  "styles": 15,
+  "assets": 232,
+  "styles": 14,
   "scripts": 12,
   "routes": {
     "home": "index.html",
     "projects": "projects.html",
-    "about": "about.html",
     "contacts": "contacts.html",
     "zenit": "project-zenit.html",
     "nexemezin": "project-nexemezin.html",
@@ -48,5 +47,5 @@
     "lacalut": "project-lacalut.html",
     "marykay": "project-marykay.html"
   },
-  "generated": "2026-11-06T14:47:54.107Z"
+  "generated": "2026-11-26T11:53:44.805Z"
 }

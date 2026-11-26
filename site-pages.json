@@ -9,11 +9,6 @@
     "title": "Проекты",
     "type": "page"
   },
-  "about": {
-    "file": "about.html",
-    "title": "О нас",
-    "type": "page"
-  },
   "contacts": {
     "file": "contacts.html",
     "title": "Контакты",

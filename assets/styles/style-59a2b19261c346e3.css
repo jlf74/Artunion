@@ -12,6 +12,7 @@
 #au-gallery-review .au-tools b{font-weight:500;text-decoration:underline;text-underline-offset:6px}
 #au-gallery-review .au-gallery{container-type:inline-size}
 #au-gallery-review .au-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:calc((100cqw - 3 * var(--gap)) * 9 / 64);gap:var(--gap)}
+#au-gallery-review .au-grid:not(.is-filtered) .au-tile{grid-column:var(--tile-column);grid-row:var(--tile-row)}
 #au-gallery-review .au-tile{position:relative;overflow:hidden;min-width:0;min-height:0;background:var(--au-card-fallback);isolation:isolate}
 #au-gallery-review .au-tile>img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
 #au-gallery-review .au-tile:after{content:'';position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#000b);pointer-events:none}
